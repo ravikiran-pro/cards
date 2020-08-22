@@ -45,7 +45,7 @@ export default function Startlist(props){
                         {Trash(index)}
                         {Edit(index)}
                         <div style={styles.wrapper}>
-                          <img src={url} style={styles.img} key={index}></img>
+                          <img src={url} alt="upload" style={styles.img} key={index}></img>
                         </div>
                         </div>
                     </>
