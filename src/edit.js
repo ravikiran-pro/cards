@@ -39,7 +39,7 @@ const styles ={
             </ul>
         </div>
         <div style={{backgroundColor:'orange',height:300,width:'80%'}}>
-          <img src={props.loc} style={{height:'100%',width:'100%'}}></img>
+          <img src={props.loc} alt="editor" style={{height:'100%',width:'100%'}}></img>
         </div>
       </div>
   )}

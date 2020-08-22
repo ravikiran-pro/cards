@@ -28,10 +28,10 @@ const styles = {
 export default function Startlist(props){
     
     const Trash=(index)=>{
-      return(<img src={require('./images/trash.png')} style={styles.edit} onClick={()=>props.deleteItem(index)}/>)
+      return(<img src={require('./images/trash.png')} alt="trash" style={styles.edit} onClick={()=>props.deleteItem(index)}/>)
     }
     const Edit=(index)=>{
-      return(<img src={require('./images/pencil.png')} style={styles.edit} onClick={()=>props.editItem(index)}/>)
+      return(<img src={require('./images/pencil.png')} alt="pencil" style={styles.edit} onClick={()=>props.editItem(index)}/>)
     }
 
     return(
